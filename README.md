@@ -1,2 +1,7 @@
-# SimpleEncryptDecryptPage
-Simple Page with Encryption and Decryption in Client Side Web
+# simple-encrypt-decrypt-vue
+
+Created by Bervianto Leo Pratama
+
+## LICENSE
+
+MIT

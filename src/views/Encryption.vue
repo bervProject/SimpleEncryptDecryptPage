@@ -12,7 +12,7 @@
           </b-field>
           <b-button type="is-success" @click="encryptNow">Encrypt</b-button>
           <b-field label="Result">
-            <b-input type="textarea" v-model="result" disabled></b-input>
+            <b-input type="textarea" v-model="result"></b-input>
           </b-field>
           <div class="buttons is-centered">
             <b-button tag="router-link" type="is-danger" to="/">Home</b-button>

@@ -1,5 +1,12 @@
 <template>
   <div id="app">
-    <router-view/>
+    <base-header/>
+    <section class="section">
+      <router-view/>
+    </section>
+    <base-footer/>
   </div>
 </template>
+
+<script lang="ts" src="./App.ts">
+</script>

@@ -5,11 +5,11 @@
         <div class="card-content">
           <div class="context has-text-centered">
             <h1 class="title">Welcome to Simple Encryption & Decryption Text</h1>
-            <div class="buttons is-centered">
-              <b-button tag="router-link" type="is-primary" to="/encrypt">
+            <div class="buttons has-addons is-centered">
+              <b-button tag="router-link" type="is-outlined is-success" to="/encrypt">
                 Encrypt
               </b-button>
-              <b-button tag="router-link" type="is-primary" to="/decrypt">
+              <b-button tag="router-link" type="is-outlined is-danger" to="/decrypt">
                 Decrypt
               </b-button>
             </div>

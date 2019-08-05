@@ -10,7 +10,7 @@
           <b-field label="Key">
             <b-input type="password" v-model="key" min="5" required password-reveal></b-input>
           </b-field>
-          <b-button type="is-success" @click="encryptNow">Encrypt</b-button>
+          <b-button type="is-success" size="is-large" @click="encryptNow">Encrypt</b-button>
           <b-field label="Result">
             <div class="card">
               <div class="card-content">
@@ -18,9 +18,9 @@
               </div>
             </div>
           </b-field>
-          <div class="buttons is-centered">
-            <b-button tag="router-link" type="is-danger" to="/">Home</b-button>
-            <b-button tag="router-link" type="is-link" to="/decrypt">Decrypt</b-button>
+          <div class="buttons has-addons is-centered">
+            <b-button tag="router-link" type="is-outlined is-danger" to="/">Home</b-button>
+            <b-button tag="router-link" type="is-outlined is-link" to="/decrypt">Decrypt</b-button>
           </div>
         </div>
       </div>
@@ -49,6 +49,7 @@ export default Vue.extend({
         this.$buefy.snackbar.open({
           message: 'Please fill all form',
           type: 'is-danger',
+          position: 'is-bottom',
         });
       }
     },

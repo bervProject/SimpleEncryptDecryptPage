@@ -1,6 +1,6 @@
 {
   "name": "simple-encrypt-decrypt-vue",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -12,7 +12,7 @@
   "dependencies": {
     "@types/crypto-js": "^3.1.43",
     "buefy": "^0.8.2",
-    "core-js": "^3.1.4",
+    "core-js": "^2.6.8",
     "crypto-js": "^3.1.9-1",
     "vue": "^2.6.10",
     "vue-class-component": "^7.0.2",

@@ -2,6 +2,20 @@
   "name": "simple-encrypt-decrypt-vue",
   "version": "0.1.1",
   "private": true,
+  "author": {
+    "email": "bervianto.leo@gmail.com",
+    "name": "Bervianto Leo Pratama"
+  },
+  "categories": [
+    "Other"
+  ],
+  "description": "Simple Encrypt Decryption Pages in Vue.js",
+  "displayName": "Simple Encrypt Decrypt Vue",
+  "license": "MIT",
+  "keywords": [
+    "Cryptography",
+    "Vue.js"
+  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

@@ -25,7 +25,7 @@
   },
   "dependencies": {
     "@types/crypto-js": "^3.1.44",
-    "buefy": "^0.8.16",
+    "buefy": "^0.8.17",
     "core-js": "^3.6.5",
     "crypto-js": "^4.0.0",
     "vue": "^2.6.11",

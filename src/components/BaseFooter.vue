@@ -3,7 +3,10 @@
     <div class="content has-text-centered">
       <p>
         <strong>Simple Encryption Decryption</strong> by
-        <a href="https://berviantoleo.github.io">Bervianto Leo Pratama</a>. The source code is licensed
+        <a href="https://berviantoleo.github.io">Bervianto Leo Pratama</a>.
+      </p>
+      <p>
+        The source code is licensed
         <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
         is licensed
         <a

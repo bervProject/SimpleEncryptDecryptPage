@@ -36,7 +36,7 @@
   "devDependencies": {
     "@babel/core": "^7.10.5",
     "@types/crypto-js": "^3.1.47",
-    "@types/jest": "^26.0.5",
+    "@types/jest": "^26.0.7",
     "@vue/babel-preset-app": "^4.4.6",
     "@vue/cli-plugin-babel": "^4.4.6",
     "@vue/cli-plugin-e2e-cypress": "^4.4.6",

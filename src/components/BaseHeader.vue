@@ -1,5 +1,5 @@
 <template>
-  <b-navbar type="is-light" fixed-top>
+  <b-navbar type="is-light" fixed-top wrapper-class="container">
     <template slot="brand">
       <b-navbar-item tag="router-link" to="/">
         <img src="@/assets/logo.png" />

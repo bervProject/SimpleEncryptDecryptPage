@@ -15,9 +15,10 @@ export default Vue.extend({
         const resultChiper = CryptoJS.AES.decrypt(this.content, this.key);
         this.result = resultChiper.toString(CryptoJS.enc.Utf8);
       } else {
-        this.$buefy.snackbar.open({
+        this.$buefy.toast.open({
           message: 'Please fill all form',
           type: 'is-danger',
+          position: 'is-bottom',
         });
       }
     },

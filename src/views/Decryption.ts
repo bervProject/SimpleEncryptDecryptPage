@@ -14,9 +14,8 @@ export default Vue.extend({
     decryptNow() {
       if (this.content && this.key) {
         const resultChiper = AES.decrypt(this.content, this.key);
-        const plain = resultChiper.toString();
-        const r = decodeURIComponent(plain.replace(/\s+/g, '').replace(/[0-9a-f]{2}/g, '%$&'));
-        this.result = r;
+        const plain = resultChiper.toString(Utf8);
+        this.result = plain;
       } else {
         this.$buefy.toast.open({
           message: 'Please fill all form',

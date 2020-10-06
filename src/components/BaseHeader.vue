@@ -16,10 +16,9 @@
     <template slot="end">
       <b-navbar-item tag="div">
         <div class="buttons">
-          <a
-            class="button is-dark"
-            href="https://github.com/bervProject/SimpleEncryptDecryptPage"
-          >Github</a>
+          <b-button icon-pack="mdi" icon-left="github" type="is-dark"
+            >Github</b-button
+          >
         </div>
       </b-navbar-item>
     </template>

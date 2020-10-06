@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import CryptoJS from 'crypto-js';
+import AES from 'crypto-js/aes';
 
 export default Vue.extend({
   data() {
@@ -12,7 +12,7 @@ export default Vue.extend({
   methods: {
     encryptNow() {
       if (this.content && this.key) {
-        const resultChiper = CryptoJS.AES.encrypt(this.content, this.key);
+        const resultChiper = AES.encrypt(this.content, this.key);
         this.result = resultChiper.toString();
       } else {
         this.$buefy.toast.open({

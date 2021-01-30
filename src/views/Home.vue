@@ -1,17 +1,19 @@
 <template>
   <section class="section">
-    <div class="container">
       <div class="card">
         <div class="card-content">
           <div class="content has-text-centered">
             <h2 class="title">Welcome to Simple Encryption & Decryption Text</h2>
             <b-carousel>
               <b-carousel-item v-for="(carousel, i) in carousels" :key="i">
-                <section :class="`hero is-medium is-${carousel.color}`">
-                  <div class="hero-body has-text-centered">
-                    <h1 class="title">{{carousel.text}}</h1>
-                  </div>
-                </section>
+                    <span class="image">
+                      <div class="columns is-flex is-overlay is-vcentered is-centered">
+                        <div class="column">
+                          <h1 class="title has-text-black-bis">{{carousel.text}}</h1>
+                        </div>
+                      </div>
+                      <img :src="carousel.image" />
+                    </span>
               </b-carousel-item>
             </b-carousel>
             <div class="section">
@@ -24,7 +26,6 @@
           </div>
         </div>
       </div>
-    </div>
   </section>
 </template>
 

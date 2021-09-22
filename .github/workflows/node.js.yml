@@ -32,6 +32,7 @@ jobs:
       with:
         name: recordings-e2e
         path: tests/e2e/videos/
+        retention-days: 14
     - name: Deploy
       if: ${{ github.event.name == 'push' && matrix.node-version == '14.x' }}
       uses: peaceiris/actions-gh-pages@v3

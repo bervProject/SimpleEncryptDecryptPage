@@ -11,7 +11,7 @@
             <b-input type="password" v-model="key" min="5" required password-reveal></b-input>
           </b-field>
           <div class="has-text-centered">
-            <b-button type="is-success" size="is-large" @click="encryptNow">Encrypt</b-button>
+            <b-button id="encrypt-button" type="is-success" size="is-large" @click="encryptNow">Encrypt</b-button>
           </div>
           <b-field label="Result">
             <div class="card">

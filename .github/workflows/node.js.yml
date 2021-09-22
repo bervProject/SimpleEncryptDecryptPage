@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-20.04
     strategy:
       matrix:
-        node-version: [12.x, 14.x]
+        node-version: [14.x, 16.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
     steps:
     - uses: actions/checkout@v2
@@ -24,12 +24,12 @@ jobs:
         yarn
         yarn lint
         yarn build
-        yarn test:unit --coverage
-    - name: Upload Codecov
-      run: bash <(curl -s https://codecov.io/bash)
-      if: ${{ matrix.node-version == '12.x' }}
+        yarn test:e2e --headless
+    #- name: Upload Codecov
+    #  run: bash <(curl -s https://codecov.io/bash)
+    #  if: ${{ matrix.node-version == '14.x' }}
     - name: Deploy
-      if: ${{ github.event.name == 'push' && matrix.node-version == '12.x' }}
+      if: ${{ github.event.name == 'push' && matrix.node-version == '14.x' }}
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}

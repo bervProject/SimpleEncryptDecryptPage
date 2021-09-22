@@ -30,7 +30,7 @@ jobs:
     #  if: ${{ matrix.node-version == '14.x' }}
     - uses: actions/upload-artifact@v2
       with:
-        name: recordings-e2e
+        name: recordings-e2e-${{ matrix.node-version }}
         path: tests/e2e/videos/
         retention-days: 14
     - name: Deploy

@@ -28,6 +28,10 @@ jobs:
     #- name: Upload Codecov
     #  run: bash <(curl -s https://codecov.io/bash)
     #  if: ${{ matrix.node-version == '14.x' }}
+    - uses: actions/upload-artifact@v2
+      with:
+        name: recordings-e2e
+        path: tests\e2e\videos\
     - name: Deploy
       if: ${{ github.event.name == 'push' && matrix.node-version == '14.x' }}
       uses: peaceiris/actions-gh-pages@v3

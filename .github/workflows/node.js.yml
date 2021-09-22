@@ -31,7 +31,7 @@ jobs:
     - uses: actions/upload-artifact@v2
       with:
         name: recordings-e2e
-        path: tests\e2e\videos\
+        path: tests/e2e/videos/
     - name: Deploy
       if: ${{ github.event.name == 'push' && matrix.node-version == '14.x' }}
       uses: peaceiris/actions-gh-pages@v3

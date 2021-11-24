@@ -46,7 +46,7 @@
     "@vue/test-utils": "1.2.2",
     "babel-loader": "^8.2.3",
     "sass": "^1.43.4",
-    "sass-loader": "^11.0.1",
+    "sass-loader": "^12.3.0",
     "ts-jest": "^27.0.7",
     "typescript": "^4.4.4",
     "vue-template-compiler": "^2.6.14"

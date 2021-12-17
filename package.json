@@ -47,7 +47,7 @@
     "babel-loader": "^8.2.3",
     "sass": "^1.45.0",
     "sass-loader": "^12.4.0",
-    "ts-jest": "^27.1.1",
+    "ts-jest": "^27.1.2",
     "typescript": "^4.5.4",
     "vue-template-compiler": "^2.6.14"
   }

@@ -24,7 +24,7 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
-    "buefy": "^0.9.13",
+    "buefy": "^0.9.14",
     "core-js": "^3.20.1",
     "crypto-js": "^4.1.1",
     "vue": "^2.6.14",

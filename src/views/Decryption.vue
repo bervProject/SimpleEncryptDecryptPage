@@ -30,4 +30,3 @@
 
 <script lang="ts" src="./Decryption.ts">
 </script>
-

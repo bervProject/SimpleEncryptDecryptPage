@@ -17,10 +17,16 @@
               </b-carousel-item>
             </b-carousel>
             <div class="section">
-              <p class="content"><h3 class="subtitle">Please select</h3></p>
+              <div class="content"><h3 class="subtitle">Please select</h3></div>
               <div class="buttons has-addons is-centered">
-                <b-button tag="router-link" type="is-outlined is-success" to="/encrypt">Encrypt</b-button>
-                <b-button tag="router-link" type="is-outlined is-danger" to="/decrypt">Decrypt</b-button>
+                <b-button
+                  tag="router-link"
+                  type="is-outlined is-success"
+                  to="/encrypt">Encrypt</b-button>
+                <b-button
+                  tag="router-link"
+                  type="is-outlined is-danger"
+                  to="/decrypt">Decrypt</b-button>
               </div>
             </div>
           </div>

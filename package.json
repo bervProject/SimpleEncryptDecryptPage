@@ -2,26 +2,17 @@
   "name": "simple-encrypt-decrypt-vue",
   "version": "0.1.1",
   "private": true,
+  "description": "Simple Encrypt Decryption Pages in Vue.js",
   "author": {
     "email": "bervianto.leo@gmail.com",
     "name": "Bervianto Leo Pratama"
   },
-  "categories": [
-    "Other"
-  ],
-  "description": "Simple Encrypt Decryption Pages in Vue.js",
-  "displayName": "Simple Encrypt Decrypt Vue",
-  "license": "MIT",
-  "keywords": [
-    "Cryptography",
-    "Vue.js"
-  ],
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint",
+    "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
-    "test:unit": "vue-cli-service test:unit"
+    "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "buefy": "^0.9.17",
@@ -37,18 +28,36 @@
     "@babel/core": "^7.17.4",
     "@types/crypto-js": "^4.1.1",
     "@types/jest": "^27.4.1",
+    "@typescript-eslint/eslint-plugin": "^5.12.1",
+    "@typescript-eslint/parser": "^5.12.1",
     "@vue/babel-preset-app": "^5.0.1",
     "@vue/cli-plugin-babel": "^5.0.1",
-    "@vue/cli-plugin-e2e-cypress": "^4.5.15",
-    "@vue/cli-plugin-typescript": "^4.5.15",
-    "@vue/cli-plugin-unit-jest": "^4.5.15",
-    "@vue/cli-service": "^4.5.15",
+    "@vue/cli-plugin-e2e-cypress": "^5.0.1",
+    "@vue/cli-plugin-eslint": "^5.0.1",
+    "@vue/cli-plugin-typescript": "^5.0.1",
+    "@vue/cli-plugin-unit-jest": "^5.0.1",
+    "@vue/cli-service": "^5.0.1",
+    "@vue/eslint-config-airbnb": "^5.0.2",
+    "@vue/eslint-config-typescript": "^10.0.0",
     "@vue/test-utils": "1.3.0",
     "babel-loader": "^8.2.3",
+    "eslint": "^8.9.0",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-vue": "^8.5.0",
     "sass": "^1.49.9",
     "sass-loader": "^12.6.0",
     "ts-jest": "^27.1.3",
     "typescript": "^4.5.5",
     "vue-template-compiler": "^2.6.14"
-  }
+  },
+  "categories": [
+    "Other"
+  ],
+  "displayName": "Simple Encrypt Decrypt Vue",
+  "keywords": [
+    "Cryptography",
+    "Vue.js"
+  ],
+  "license": "MIT"
 }

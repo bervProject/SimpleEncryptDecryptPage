@@ -1894,12 +1894,12 @@
     thread-loader "^3.0.0"
     webpack "^5.54.0"
 
-"@vue/cli-plugin-e2e-cypress@^5.0.1":
-  version "5.0.1"
-  resolved "https://registry.npmjs.org/@vue/cli-plugin-e2e-cypress/-/cli-plugin-e2e-cypress-5.0.1.tgz#f0a17cdb6c519faf93eb35e283f9cffceb88f6c2"
-  integrity sha512-twQIk20YNCQRp41xdwgYe0Tfq4LOvmSpzkT45XH91wQMfBq1+3PtT8fy7DdGnN7Dd3QTnWECQlLKJk/9Le6Q7A==
+"@vue/cli-plugin-e2e-cypress@^5.0.3":
+  version "5.0.3"
+  resolved "https://registry.yarnpkg.com/@vue/cli-plugin-e2e-cypress/-/cli-plugin-e2e-cypress-5.0.3.tgz#82b5c590c376b76bc5881274482e9c34a09cd8cb"
+  integrity sha512-uh1vyMg6oO/7SBzyjxDSSaOuPfCNHgUTZaI73Sdw0nQx8Z7Mbn7hKtv53OT+aDCREx6Gbkn69TE0ltb61zxqiw==
   dependencies:
-    "@vue/cli-shared-utils" "^5.0.1"
+    "@vue/cli-shared-utils" "^5.0.3"
     eslint-plugin-cypress "^2.11.2"
 
 "@vue/cli-plugin-eslint@^5.0.3":
@@ -2018,7 +2018,7 @@
     webpack-virtual-modules "^0.4.2"
     whatwg-fetch "^3.6.2"
 
-"@vue/cli-shared-utils@^5.0.1", "@vue/cli-shared-utils@^5.0.3":
+"@vue/cli-shared-utils@^5.0.3":
   version "5.0.3"
   resolved "https://registry.yarnpkg.com/@vue/cli-shared-utils/-/cli-shared-utils-5.0.3.tgz#e8facc759f4e2ceed4a26f33943c0005a834e4af"
   integrity sha512-xAHxFDYVohHWXOLdmGvka3ffQcRgKdACempFQkGJX74Q7OBf0zPf5WH+vQXhlR17eA3LmWdY+Nv8OfsIGim6Fg==

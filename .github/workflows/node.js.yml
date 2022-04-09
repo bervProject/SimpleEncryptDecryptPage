@@ -24,7 +24,7 @@ jobs:
       run: yarn build
     - name: Test
       run: yarn test:e2e --headless
-    - uses: actions/upload-artifact@v2
+    - uses: actions/upload-artifact@v3
       with:
         name: recordings-e2e-${{ matrix.node-version }}
         path: tests/e2e/videos/

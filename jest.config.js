@@ -8,7 +8,6 @@ module.exports = {
     'tsx',
   ],
   transform: {
-    '^.+\\.vue$': 'vue-jest',
     '.+\\.(css|styl|less|sass|scss|svg|png|jpg|ttf|woff|woff2)$': 'jest-transform-stub',
     '^.+\\.tsx?$': 'ts-jest',
   },
@@ -21,6 +20,8 @@ module.exports = {
   snapshotSerializers: [
     'jest-serializer-vue',
   ],
+  collectCoverage: true,
+  collectCoverageFrom: ['**/src/**/*.{ts,js,vue}', '!**/node_modules/**'],
   testMatch: [
     '**/tests/unit/**/*.spec.(js|jsx|ts|tsx)|**/__tests__/*.(js|jsx|ts|tsx)',
   ],
@@ -34,4 +35,5 @@ module.exports = {
       babelConfig: true,
     },
   },
+  preset: '@vue/cli-plugin-unit-jest/presets/typescript-and-babel',
 };

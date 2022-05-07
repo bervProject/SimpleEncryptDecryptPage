@@ -22,8 +22,12 @@ jobs:
       run: yarn lint
     - name: Build
       run: yarn build
+    - name: Unit Test
+      run: yarn test:unit -ci
     - name: Test
       run: yarn test:e2e --headless
+    - uses: codecov/codecov-action@v3
+      if: ${{ matrix.node-version == '16.x' }}
     - uses: actions/upload-artifact@v3
       with:
         name: recordings-e2e-${{ matrix.node-version }}

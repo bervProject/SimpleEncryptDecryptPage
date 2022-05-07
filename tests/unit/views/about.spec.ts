@@ -1,5 +1,5 @@
 import { shallowMount } from '@vue/test-utils';
-import About from '@/views/About.vue';
+import About from '@/views/AboutPage.vue';
 
 describe('About.vue', () => {
   it('renders correctly', () => {

@@ -1,7 +1,7 @@
 import { createLocalVue, shallowMount } from '@vue/test-utils';
 import Buefy from 'buefy';
 
-import Home from '@/views/Home.vue';
+import Home from '@/views/HomePage.vue';
 
 // create an extended `Vue` constructor
 const localVue = createLocalVue();

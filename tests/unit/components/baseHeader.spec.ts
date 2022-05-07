@@ -16,7 +16,7 @@ describe('BaseHeader.vue', () => {
     });
 
     const navbarItems = wrapper.findAll('b-navbar-item-stub');
-    const items = navbarItems.wrappers.map((wrapper) => wrapper.text());
+    const items = navbarItems.wrappers.map((wrap) => wrap.text());
     expect(items).toStrictEqual(['', 'Home', 'Encrypt', 'Decrypt', 'About', 'Github']);
   });
 });

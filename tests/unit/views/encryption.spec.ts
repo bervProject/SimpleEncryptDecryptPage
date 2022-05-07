@@ -1,7 +1,7 @@
 import { createLocalVue, shallowMount } from '@vue/test-utils';
 import Buefy from 'buefy';
 
-import Encryption from '@/views/Encryption.vue';
+import Encryption from '@/views/EncryptionPage.vue';
 
 // create an extended `Vue` constructor
 const localVue = createLocalVue();

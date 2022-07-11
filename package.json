@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "buefy": "^0.9.21",
-    "core-js": "^3.23.3",
+    "core-js": "^3.23.4",
     "crypto-js": "^4.1.1",
     "vue": "^2.7.4",
     "vue-class-component": "^7.2.6",

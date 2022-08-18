@@ -1,7 +1,7 @@
 module.exports = {
   plugins: [
     'cypress',
-    'vuejs-accessibility'
+    'vuejs-accessibility',
   ],
   root: true,
   env: {
@@ -20,7 +20,9 @@ module.exports = {
     'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     'vue/multi-word-component-names': 'warn',
-    'vuejs-accessibility/alt-text': 'warn'
+    'vuejs-accessibility/alt-text': 'warn',
+    'import/extensions': 'warn',
+    'import/no-unresolved': 'warn',
   },
   overrides: [
     {

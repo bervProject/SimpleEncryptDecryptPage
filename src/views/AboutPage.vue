@@ -3,7 +3,7 @@
     <div class="container">
       <article class="media">
         <figure class="media-left">
-          <img src="https://s.gravatar.com/avatar/9bd19c8f7c7de70d98f285821ce42420" />
+          <img src="https://s.gravatar.com/avatar/9bd19c8f7c7de70d98f285821ce42420" alt="gravatar" />
         </figure>
         <div class="media-content">
           <div class="content">

@@ -5,10 +5,10 @@
         <div class="card-content">
           <h1 class="title has-text-centered">Decryption</h1>
           <b-field label="Content">
-            <b-input type="textarea" v-model="content" required></b-input>
+            <b-input type="textarea" v-model="content" required />
           </b-field>
           <b-field label="Key">
-            <b-input type="password" v-model="key" min="5" required password-reveal></b-input>
+            <b-input type="password" v-model="key" min="5" required password-reveal />
           </b-field>
           <div class="has-text-centered">
             <b-button type="is-success" size="is-large" @click="decryptNow">Decrypt</b-button>

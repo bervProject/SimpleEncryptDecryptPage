@@ -2,7 +2,7 @@
   <b-navbar type="is-light" fixed-top wrapper-class="container">
     <template slot="brand">
       <b-navbar-item tag="router-link" to="/">
-        <img src="@/assets/logo.png" />
+        <img src="@/assets/logo.png" alt="logo" />
       </b-navbar-item>
     </template>
     <template slot="start">
@@ -16,8 +16,11 @@
     <template slot="end">
       <b-navbar-item tag="div">
         <div class="buttons">
-          <b-button icon-pack="mdi" icon-left="github" type="is-dark"
-            >Github</b-button
+          <b-button
+            icon-pack="mdi"
+            icon-left="github"
+            type="is-dark"
+          >Github</b-button
           >
         </div>
       </b-navbar-item>

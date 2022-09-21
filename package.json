@@ -21,7 +21,7 @@
     "vue": "^2.7.10",
     "vue-class-component": "^7.2.6",
     "vue-property-decorator": "^9.1.2",
-    "vue-router": "^3.6.5",
+    "vue-router": "^4.1.5",
     "vuex": "^3.6.2"
   },
   "devDependencies": {

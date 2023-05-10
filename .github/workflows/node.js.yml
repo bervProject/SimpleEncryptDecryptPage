@@ -6,10 +6,10 @@ on:
     branches: [ main ]
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     strategy:
       matrix:
-        node-version: [16.x, 18.x]
+        node-version: [18.x]
     steps:
     - uses: actions/checkout@v3
     - name: Use Node.js ${{ matrix.node-version }}
@@ -17,7 +17,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - name: Install
-      run: yarn
+      run: yarn --frozen-lockfile
     - name: Lint
       run: yarn lint
     - name: Build
@@ -27,14 +27,14 @@ jobs:
     - name: Test
       run: yarn test:e2e --headless
     - uses: codecov/codecov-action@v3
-      if: ${{ matrix.node-version == '16.x' }}
+      if: ${{ matrix.node-version == '18.x' }}
     - uses: actions/upload-artifact@v3
       with:
         name: recordings-e2e-${{ matrix.node-version }}
         path: tests/e2e/videos/
         retention-days: 7
     - name: Deploy
-      if: ${{ github.event_name == 'push' && matrix.node-version == '16.x' }}
+      if: ${{ github.event_name == 'push' && matrix.node-version == '18.x' }}
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}

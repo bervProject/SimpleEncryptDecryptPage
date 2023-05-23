@@ -28,7 +28,7 @@
     "@babel/core": "^7.21.8",
     "@types/crypto-js": "^4.1.1",
     "@types/jest": "^29.5.1",
-    "@typescript-eslint/eslint-plugin": "^5.59.6",
+    "@typescript-eslint/eslint-plugin": "^5.59.7",
     "@typescript-eslint/parser": "^5.59.6",
     "@vue/babel-preset-app": "^5.0.8",
     "@vue/cli-plugin-babel": "^5.0.8",

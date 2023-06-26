@@ -1,27 +1,23 @@
-import { createLocalVue, shallowMount } from '@vue/test-utils';
-import Buefy from 'buefy';
+import { mount } from '@vue/test-utils';
 
 import Home from '@/views/HomePage.vue';
 
-// create an extended `Vue` constructor
-const localVue = createLocalVue();
-// install plugins as normal
-localVue.use(Buefy);
-
 describe('Home.vue', () => {
   it('Render correctly', () => {
-    const wrapper = shallowMount(Home, {
-      localVue,
-      stubs: ['router-link', 'router-view'],
+    const wrapper = mount(Home, {
+      shallow: true,
+      global: {
+        stubs: ['router-link', 'router-view', 'o-button', 'o-carousel', 'o-carousel-item'],
+      },
     });
 
     expect(wrapper.text()).toContain('Welcome to Simple Encryption & Decryption Text');
 
     expect(wrapper.classes()).toStrictEqual(['section']);
 
-    const bButtons = wrapper.findAll('b-button-stub');
+    const oButtons = wrapper.findAll('o-button-stub');
 
-    const buttons = bButtons.wrappers.map((bButton) => bButton.text());
-    expect(buttons).toStrictEqual(['Encrypt', 'Decrypt']);
+    const buttonsLink = oButtons.map((button) => button.attributes()).map((attr) => attr.to);
+    expect(buttonsLink).toStrictEqual(['/encrypt', '/decrypt']);
   });
 });

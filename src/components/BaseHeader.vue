@@ -1,31 +1,42 @@
 <template>
-  <b-navbar type="is-light" fixed-top wrapper-class="container">
-    <template slot="brand">
-      <b-navbar-item tag="router-link" to="/">
+  <nav class="navbar is-fixed-top">
+    <div class="navbar-brand">
+      <router-link class="navbar-item" to="/">
         <img src="@/assets/logo.png" alt="logo" />
-      </b-navbar-item>
-    </template>
-    <template slot="start">
-      <b-navbar-item tag="router-link" to="/">Home</b-navbar-item>
-      <b-navbar-dropdown label="Menu" hoverable>
-        <b-navbar-item tag="router-link" to="/encrypt">Encrypt</b-navbar-item>
-        <b-navbar-item tag="router-link" to="/decrypt">Decrypt</b-navbar-item>
-      </b-navbar-dropdown>
-      <b-navbar-item tag="router-link" to="/about">About</b-navbar-item>
-    </template>
-    <template slot="end">
-      <b-navbar-item tag="div">
-        <div class="buttons">
-          <b-button
-            icon-pack="mdi"
-            icon-left="github"
-            type="is-dark"
-          >Github</b-button
-          >
+      </router-link>
+
+      <button @click="makeBurger" type="button" class="button navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" v-bind:class="{ 'is-active': activator }">
+        <span aria-hidden="true" />
+        <span aria-hidden="true" />
+        <span aria-hidden="true" />
+      </button>
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu" v-bind:class="{ 'is-active': activator }">
+      <div class="navbar-start">
+        <router-link class="navbar-item" to="/">
+          Home
+        </router-link>
+
+        <router-link class="navbar-item" to="/encrypt">
+          Encrypt
+        </router-link>
+
+        <router-link class="navbar-item" to="/decrypt">
+          Decrypt
+        </router-link>
+      </div>
+
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <o-button icon-pack="mdi" icon-left="github" variant="dark">Github</o-button>
+          </div>
         </div>
-      </b-navbar-item>
-    </template>
-  </b-navbar>
+      </div>
+    </div>
+
+  </nav>
 </template>
 
 <script lang="ts" src="./BaseHeader.ts">

@@ -1,27 +1,22 @@
-import { createLocalVue, shallowMount } from '@vue/test-utils';
-import Buefy from 'buefy';
+import { shallowMount } from '@vue/test-utils';
 
 import Decryption from '@/views/DecryptionPage.vue';
-
-// create an extended `Vue` constructor
-const localVue = createLocalVue();
-// install plugins as normal
-localVue.use(Buefy);
 
 describe('Decryption.vue', () => {
   it('Render correctly', () => {
     const wrapper = shallowMount(Decryption, {
-      localVue,
-      stubs: ['router-link', 'router-view'],
+      global: {
+        stubs: ['router-link', 'router-view', 'o-button', 'o-field', 'o-input'],
+      },
     });
 
     expect(wrapper.text()).toContain('Decryption');
 
     expect(wrapper.classes()).toStrictEqual(['section']);
 
-    const bButtons = wrapper.findAll('b-button-stub');
+    const oButtons = wrapper.findAll('o-button-stub');
 
-    const buttons = bButtons.wrappers.map((bButton) => bButton.text());
-    expect(buttons).toStrictEqual(['Decrypt', 'Home', 'Encrypt']);
+    const buttonsLink = oButtons.map((button) => button.attributes()).map((attr) => attr.to);
+    expect(buttonsLink).toStrictEqual([undefined, '/', '/encrypt']);
   });
 });

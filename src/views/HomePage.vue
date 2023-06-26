@@ -4,8 +4,8 @@
       <div class="card-content">
         <div class="content has-text-centered">
           <h2 class="title">Welcome to Simple Encryption & Decryption Text</h2>
-          <b-carousel>
-            <b-carousel-item v-for="(carousel, i) in carousels" :key="i">
+          <o-carousel>
+            <o-carousel-item v-for="(carousel, i) in carousels" :key="i">
               <span class="image">
                 <div class="columns is-flex is-overlay is-vcentered is-centered">
                   <div class="column">
@@ -14,19 +14,21 @@
                 </div>
                 <img :src="carousel.image" alt="Carousel Image" />
               </span>
-            </b-carousel-item>
-          </b-carousel>
+            </o-carousel-item>
+          </o-carousel>
           <div class="section">
             <div class="content"><h3 class="subtitle">Please select</h3></div>
             <div class="buttons has-addons is-centered">
-              <b-button
+              <o-button
                 tag="router-link"
-                type="is-outlined is-success"
-                to="/encrypt">Encrypt</b-button>
-              <b-button
+                variant="success"
+                outlined
+                to="/encrypt">Encrypt</o-button>
+              <o-button
                 tag="router-link"
-                type="is-outlined is-danger"
-                to="/decrypt">Decrypt</b-button>
+                variant="danger"
+                outlined
+                to="/decrypt">Decrypt</o-button>
             </div>
           </div>
         </div>

@@ -1,22 +1,17 @@
-import { createLocalVue, shallowMount } from '@vue/test-utils';
-import Buefy from 'buefy';
+import { shallowMount } from '@vue/test-utils';
 
 import BaseHeader from '@/components/BaseHeader.vue';
-
-// create an extended `Vue` constructor
-const localVue = createLocalVue();
-// install plugins as normal
-localVue.use(Buefy);
 
 describe('BaseHeader.vue', () => {
   it('Render correctly', () => {
     const wrapper = shallowMount(BaseHeader, {
-      localVue,
-      stubs: ['router-link', 'router-view'],
+      global: {
+        stubs: ['router-link', 'router-view', 'o-button'],
+      },
     });
 
-    const navbarItems = wrapper.findAll('b-navbar-item-stub');
-    const items = navbarItems.wrappers.map((wrap) => wrap.text());
-    expect(items).toStrictEqual(['', 'Home', 'Encrypt', 'Decrypt', 'About', 'Github']);
+    const navbarItems = wrapper.findAll('router-link-stub');
+    const items = navbarItems.map((wrap) => wrap.attributes().to);
+    expect(items).toStrictEqual(['/', '/', '/encrypt', '/decrypt']);
   });
 });

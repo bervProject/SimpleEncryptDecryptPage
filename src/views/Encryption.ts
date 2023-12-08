@@ -1,10 +1,10 @@
 import { defineComponent, ref } from 'vue';
-import { useProgrammatic } from '@oruga-ui/oruga-next';
+import { useOruga } from '@oruga-ui/oruga-next';
 import AES from 'crypto-js/aes';
 
 export default defineComponent({
   setup() {
-    const { oruga } = useProgrammatic();
+    const oruga = useOruga();
     const result = ref('');
     function danger() {
       oruga.notification.open({

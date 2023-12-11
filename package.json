@@ -19,7 +19,7 @@
     "@oruga-ui/theme-bulma": "^0.2.11",
     "core-js": "^3.34.0",
     "crypto-js": "^4.2.0",
-    "vue": "^3.3.10",
+    "vue": "^3.3.11",
     "vue-router": "^4.2.5",
     "vuex": "^4.1.0"
   },

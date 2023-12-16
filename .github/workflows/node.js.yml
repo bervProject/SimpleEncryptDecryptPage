@@ -28,7 +28,7 @@ jobs:
       run: yarn test:e2e --headless
     - uses: codecov/codecov-action@v3
       if: ${{ matrix.node-version == '18.x' }}
-    - uses: actions/upload-artifact@v3
+    - uses: actions/upload-artifact@v4
       with:
         name: recordings-e2e-${{ matrix.node-version }}
         path: tests/e2e/videos/

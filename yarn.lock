@@ -1717,10 +1717,10 @@
   resolved "https://registry.yarnpkg.com/@one-ini/wasm/-/wasm-0.1.1.tgz#6013659736c9dbfccc96e8a9c2b3de317df39323"
   integrity sha512-XuySG1E38YScSJoMlqovLru4KTUNSjgVTIjyh7qMX6aNN5HY5Ct5LhRJdxO79JtTzKfzV/bnWpz+zquYrISsvw==
 
-"@oruga-ui/oruga-next@0.7.0":
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/@oruga-ui/oruga-next/-/oruga-next-0.7.0.tgz#3d454cf648182d25a99a21c7101506f8f585d13a"
-  integrity sha512-T2KnNhGzgqv/Xzu4Efx3wnYahANcP6Z7Yc8DHOFIOLrM+ZDdTS9OjL3gofBVDrDBRg1DQv6EvsSsNkwMR88LpA==
+"@oruga-ui/oruga-next@0.8.8":
+  version "0.8.8"
+  resolved "https://registry.yarnpkg.com/@oruga-ui/oruga-next/-/oruga-next-0.8.8.tgz#b7ed177e9ede11720858bb0882509488c47f23e5"
+  integrity sha512-BXDrHGJOyV4F6bviSM9v33QipZmCmj6K/oyx2G2r2/0OXgdjcrmNTiot6y2u0qP1mYimw2tLSQTznsAqnuRoUQ==
 
 "@oruga-ui/theme-bulma@^0.3.0":
   version "0.3.0"

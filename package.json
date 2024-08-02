@@ -20,7 +20,7 @@
     "core-js": "^3.37.1",
     "crypto-js": "^4.2.0",
     "vue": "^3.4.35",
-    "vue-router": "^4.4.1",
+    "vue-router": "^4.4.2",
     "vuex": "^4.1.0"
   },
   "devDependencies": {

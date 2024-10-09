@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "@oruga-ui/oruga-next": "0.8.12",
-    "@oruga-ui/theme-bulma": "^0.3.0",
+    "@oruga-ui/theme-bulma": "^0.4.1",
     "core-js": "^3.38.1",
     "crypto-js": "^4.2.0",
     "vue": "^3.5.11",

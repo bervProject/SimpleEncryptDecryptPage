@@ -1676,12 +1676,12 @@
   resolved "https://registry.yarnpkg.com/@one-ini/wasm/-/wasm-0.1.1.tgz#6013659736c9dbfccc96e8a9c2b3de317df39323"
   integrity sha512-XuySG1E38YScSJoMlqovLru4KTUNSjgVTIjyh7qMX6aNN5HY5Ct5LhRJdxO79JtTzKfzV/bnWpz+zquYrISsvw==
 
-"@oruga-ui/oruga-next@0.10.5":
-  version "0.10.5"
-  resolved "https://registry.yarnpkg.com/@oruga-ui/oruga-next/-/oruga-next-0.10.5.tgz#a569b854808fc00f1dc22454961f22b3b941a55b"
-  integrity sha512-unxjOBM70sHo0uZnWheF9eT2vAI23rRU2Fg4MTxzibWx9Ku1hax3xL9HSO8gneNG8nikN/BJncX1lE+yy93rtg==
+"@oruga-ui/oruga-next@0.10.6":
+  version "0.10.6"
+  resolved "https://registry.yarnpkg.com/@oruga-ui/oruga-next/-/oruga-next-0.10.6.tgz#29ceae47439d6b1b68a4a79959baae6fd6a32c95"
+  integrity sha512-f4UEzY5zePmyADjUafjeQJLv1DLX6RqJbuw4U1ftPIlSo7ywWN5CYjJz0cuXRxFsYMzqB4b0rb34v6m0+UUrVg==
   dependencies:
-    vue-component-type-helpers "^2.2.8"
+    vue-component-type-helpers "^2.2.10"
 
 "@oruga-ui/theme-bulma@^0.6.2":
   version "0.6.2"
@@ -11561,10 +11561,10 @@ verror@1.10.0:
     core-util-is "1.0.2"
     extsprintf "^1.2.0"
 
-vue-component-type-helpers@^2.0.0, vue-component-type-helpers@^2.2.8:
-  version "2.2.8"
-  resolved "https://registry.yarnpkg.com/vue-component-type-helpers/-/vue-component-type-helpers-2.2.8.tgz#66d25e4405a4bcc06a22aa4c01e35141343da580"
-  integrity sha512-4bjIsC284coDO9om4HPA62M7wfsTvcmZyzdfR0aUlFXqq4tXxM1APyXpNVxPC8QazKw9OhmZNHBVDA6ODaZsrA==
+vue-component-type-helpers@^2.0.0, vue-component-type-helpers@^2.2.10:
+  version "2.2.10"
+  resolved "https://registry.yarnpkg.com/vue-component-type-helpers/-/vue-component-type-helpers-2.2.10.tgz#126a7d7258f7458c66dfe234a612500c90c4838c"
+  integrity sha512-iDUO7uQK+Sab2tYuiP9D1oLujCWlhHELHMgV/cB13cuGbG4qwkLHvtfWb6FzvxrIOPDnU0oHsz2MlQjhYDeaHA==
 
 vue-eslint-parser@^9.0.1, vue-eslint-parser@^9.3.1, vue-eslint-parser@^9.3.2, vue-eslint-parser@^9.4.3:
   version "9.4.3"

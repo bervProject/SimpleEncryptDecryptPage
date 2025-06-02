@@ -24,7 +24,7 @@
     "vuex": "^4.1.0"
   },
   "devDependencies": {
-    "@babel/core": "^7.27.3",
+    "@babel/core": "^7.27.4",
     "@types/crypto-js": "^4.2.2",
     "@types/jest": "^29.5.14",
     "@typescript-eslint/eslint-plugin": "^8.33.0",

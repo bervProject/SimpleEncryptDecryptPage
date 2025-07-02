@@ -3,7 +3,7 @@ import BaseFooter from '@/components/BaseFooter.vue';
 import BaseHeader from '@/components/BaseHeader.vue';
 
 export default defineComponent({
-  name: 'app',
+  name: 'App',
   components: {
     BaseFooter,
     BaseHeader,

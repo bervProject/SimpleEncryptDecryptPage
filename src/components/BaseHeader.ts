@@ -1,7 +1,7 @@
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-  name: 'base-header',
+  name: 'BaseHeader',
   data() {
     return {
       activator: false,

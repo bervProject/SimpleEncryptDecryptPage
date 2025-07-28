@@ -15,7 +15,7 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@oruga-ui/oruga-next": "0.11.3",
+    "@oruga-ui/oruga-next": "0.11.4",
     "@oruga-ui/theme-bulma": "^0.7.3",
     "core-js": "^3.44.0",
     "crypto-js": "^4.2.0",

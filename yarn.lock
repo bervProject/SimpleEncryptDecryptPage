@@ -1688,10 +1688,10 @@
   resolved "https://registry.yarnpkg.com/@one-ini/wasm/-/wasm-0.1.1.tgz#6013659736c9dbfccc96e8a9c2b3de317df39323"
   integrity sha512-XuySG1E38YScSJoMlqovLru4KTUNSjgVTIjyh7qMX6aNN5HY5Ct5LhRJdxO79JtTzKfzV/bnWpz+zquYrISsvw==
 
-"@oruga-ui/oruga-next@0.11.3":
-  version "0.11.3"
-  resolved "https://registry.yarnpkg.com/@oruga-ui/oruga-next/-/oruga-next-0.11.3.tgz#19b0cb90741232b992b1126a83c4196e0e087fa2"
-  integrity sha512-vYgbzouCYEJHWW84L+9/Ly4lSy9W3xw6JDRa6OsIbN2jfONI98yof7ymBVVAYF4juZSYrJ7l8rQGaB6zYnX4Qg==
+"@oruga-ui/oruga-next@0.11.4":
+  version "0.11.4"
+  resolved "https://registry.yarnpkg.com/@oruga-ui/oruga-next/-/oruga-next-0.11.4.tgz#4388158ffa9f2ef8b3f58a6f64d60bdf0345a46d"
+  integrity sha512-zeuycH6FJI5z0Ohqr41a0m8jUQ37XCV7xE46hb22MQvvHxYLnNpB21nRsSOl6qEhDX1zijj+qIaxk0R4w5+5uw==
   dependencies:
     vue-component-type-helpers "^3.0.2"
 

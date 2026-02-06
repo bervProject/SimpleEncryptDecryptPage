@@ -50,7 +50,7 @@
     "globals": "^17.3.0",
     "jest": "30.2.0",
     "sass": "^1.97.3",
-    "sass-loader": "^16.0.6",
+    "sass-loader": "^16.0.7",
     "ts-jest": "^29.4.6",
     "typescript": "^5.8.3"
   },

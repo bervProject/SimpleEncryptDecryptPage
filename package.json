@@ -39,7 +39,7 @@
     "@vue/eslint-config-typescript": "^14.7.0",
     "@vue/test-utils": "2.4.6",
     "@vue/vue3-jest": "^29.2.6",
-    "babel-jest": "^30.2.0",
+    "babel-jest": "^30.3.0",
     "babel-loader": "^10.1.1",
     "cypress": "^15.11.0",
     "eslint": "^9.39.2",

@@ -12,7 +12,7 @@
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
     "test:unit": "vitest run",
-    "test:e2e": "start-server-and-test preview http://localhost:5173 'cypress run'",
+    "test:e2e": "start-server-and-test preview http://localhost:4173 'cypress run --headless'",
     "lint": "eslint"
   },
   "dependencies": {

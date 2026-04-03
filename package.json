@@ -12,7 +12,7 @@
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
     "test:unit": "vitest run",
-    "test:e2e": "cypress run",
+    "test:e2e": "start-server-and-test preview http://localhost:5173 'cypress run'",
     "lint": "eslint"
   },
   "dependencies": {
@@ -40,6 +40,7 @@
     "happy-dom": "^20.8.9",
     "lightningcss": "^1.32.0",
     "sass": "^1.99.0",
+    "start-server-and-test": "^3.0.0",
     "typescript": "^6.0.2",
     "vite": "^8.0.3",
     "vitest": "^4.1.2",

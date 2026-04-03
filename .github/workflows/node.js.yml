@@ -23,7 +23,7 @@ jobs:
     - name: Build
       run: yarn build
     - name: Unit Test
-      run: yarn test:unit -ci
+      run: yarn test:unit
     - name: Test
       run: yarn test:e2e --headless
     - uses: codecov/codecov-action@v6

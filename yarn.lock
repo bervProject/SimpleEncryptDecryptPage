@@ -1832,10 +1832,10 @@ eslint-plugin-vue@^10.10.0:
     semver "^7.8.5"
     xml-name-validator "^5.0.0"
 
-eslint-plugin-vuejs-accessibility@^2.5.0:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-vuejs-accessibility/-/eslint-plugin-vuejs-accessibility-2.5.0.tgz#532c3c7f3284b3504fe610cbd8a0177349054d36"
-  integrity sha512-oZ2fL4tS91Cm/ezH3BueNP+FtpbbeS627OSqqgp9/lsN//glmoPcLBT6D53xwGocLtyBybaT99tX4ThBh8+ytA==
+eslint-plugin-vuejs-accessibility@^2.6.0:
+  version "2.6.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-vuejs-accessibility/-/eslint-plugin-vuejs-accessibility-2.6.0.tgz#a0ac3e925f58e9c3ddf3b5c10c64b75f97798ba8"
+  integrity sha512-QtJO3UdLH+aydue/im7aBsYKO99ouJ6hm4wEHL1Xm/BwDfYTAmXEPhTImNwlOHp2bbid7rNY7IrHz+IZzGApYA==
   dependencies:
     aria-query "^5.3.0"
     vue-eslint-parser "^9.0.0 || ^10.0.0"

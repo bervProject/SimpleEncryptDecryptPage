@@ -37,7 +37,7 @@
     "eslint-plugin-vue": "^10.10.0",
     "eslint-plugin-vuejs-accessibility": "^2.6.0",
     "globals": "^17.11.0",
-    "happy-dom": "^20.11.2",
+    "happy-dom": "^20.11.6",
     "lightningcss": "^1.33.0",
     "sass": "^1.103.1",
     "start-server-and-test": "^3.0.12",

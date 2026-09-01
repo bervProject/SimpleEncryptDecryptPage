@@ -2273,10 +2273,10 @@ graceful-fs@^4.1.6, graceful-fs@^4.2.0:
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.11.tgz#4183e4e8bf08bb6e05bbb2f7d2e0c8f712ca40e3"
   integrity sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==
 
-happy-dom@^20.11.12:
-  version "20.11.12"
-  resolved "https://registry.yarnpkg.com/happy-dom/-/happy-dom-20.11.12.tgz#8a634a2e623fa4af9231138a06f1d1817a638852"
-  integrity sha512-7+mrTTD+6fOG3dx0URrDLrCX8QDTE+YujSOQD4VPZcYze/yJ0vVhRKaIBTjqlk+R4NetxVz21odnevHYIjIJ+g==
+happy-dom@^20.11.15:
+  version "20.11.15"
+  resolved "https://registry.yarnpkg.com/happy-dom/-/happy-dom-20.11.15.tgz#6f61c418aebc4cc840a0321c10c50bfd91abb654"
+  integrity sha512-bj2gQIKzOYB6GAAJ/jrN/IFHQe79MhEOiMAspRRWiKebRoegvGDv2B6eUt8KiZMTEDvx6ri0fAF7Xh/umAUUZA==
   dependencies:
     "@types/node" ">=20.0.0"
     "@types/whatwg-mimetype" "^3.0.2"

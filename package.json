@@ -39,7 +39,7 @@
     "globals": "^17.13.0",
     "happy-dom": "^21.0.1",
     "lightningcss": "^1.33.0",
-    "sass": "^1.105.1",
+    "sass": "^1.105.2",
     "start-server-and-test": "^3.0.13",
     "typescript": "^6.0.3",
     "vite": "^8.3.4",
